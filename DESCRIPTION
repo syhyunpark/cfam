@@ -1,0 +1,12 @@
+Package: cfam
+Type: Package
+Title: Constrained functional additive models (CFAM)
+Version: 0.1.0
+Author: Park, H., Petkova, E., Tarpey, T., Ogden, R.T. 
+Maintainer: Hyung Park <hyung.park@nyumc.org>
+Description: A major challenge in estimating individualized treatment selection rules lies in detecting relatively small treatment effect modification-related variabilities (i.e., the treatment-by-covariates interaction effects on the treatment outcome) against a relatively large non-treatment-related variabilities (i.e., main effects of covariates on the treatment outcome). The class of constrained functional additive models (CFAM) is an additive model for a potentially large number of functional/scalar regressors and a treatment indicator, specifically designed to estimate components associated with the treatment effect modification-related variabilities of the regressors, while allowing for nonlinear associations with the treatment outcomes. CFAM provides a flexible regression approach to developing individualized treatment selection rules based on patients' data measured at baseline. For details, see “Constrained functional additive models for estimating interactions between a treatment and a large number of functional covariates” (Park, H., Petkova, E., Tarpey, T., Ogden, R.T., 2019). The main function of this package is cfam(). 
+License: GPL-3
+Imports: refund, MASS, magic, mgcv, plyr, glmnet, splines, ggplot2, csim
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
